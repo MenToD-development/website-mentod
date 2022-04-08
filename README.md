@@ -1,6 +1,6 @@
-<p style="text-align: center;"><a href="https://laravel.com" target="_blank"><img src="https://i.postimg.cc/nhCJBw2D/Logo-Men-To-D-regular-2x.png" width="400" alt="MenToD"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.postimg.cc/nhCJBw2D/Logo-Men-To-D-regular-2x.png" width="400" alt="MenToD"></a></p>
 
-<p style="text-align: center;">
+<p align="center">
 <a href="https://github.com/MenToD-development/website-mentod/releases"><img src="https://img.shields.io/github/v/release/MenToD-Development/website-mentod" alt="Version" /></a>
 <a href="https://https://github.com/MenToD-development/website-mentod/issues"><img src="https://img.shields.io/github/issues-raw/MenToD-Development/website-mentod" alt="Issues" /></a>
 <img src="https://img.shields.io/github/repo-size/MenToD-Development/website-mentod" alt="Repo size" />
