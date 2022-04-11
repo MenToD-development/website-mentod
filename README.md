@@ -30,25 +30,40 @@ MenToD is the company under which I can perform my work as a Freelance Full-Stac
 ### Frameworks & Language
 <a href="https://www.php.net/" target="_blank"><img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /></a>
 <a href="https://laravel.com" target="_blank"><img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /></a>
+<a href="https://html.com" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>
+<a href="https://www.javascript.com/" target="_blank"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Javascript" /></a>
+<a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" alt="Vue" /></a>
+<a href="https://tailwindcss.com/" target="_blank"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" /></a>
 ### Package manager & Tools 
 <a href="https://www.npmjs.com/" target="_blank"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" /></a>
 <a href="https://getcomposer.org/" target="_blank"><img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=Composer&logoColor=white" /></a>
 <a href="https://www.github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://webpack.js.org/" target="_blank"><img src="	https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white" alt="webpack" /></a>
 ### Editor & Operating system 
 <a href="https://www.jetbrains.com/phpstorm/" target="_blank"><img src="https://img.shields.io/badge/-PHPStorm-181717?style=for-the-badge&logo=phpstorm&logoColor=white" /></a>
 <a href="https://www.apple.com/" target="_blank"><img src="https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white" /></a>
 
+## About the project
+This project was built using the Laravel Framework. The development stack is as follows:
+
+- Laravel `^9` as PHP Framework.
+- Vue `^3` as javascript framework.
+- Sentry as exception handler.
+- Laravel Nova `^4` as the admin panel.
+- PestPHP as the test framework.
+- Tailwind as the style framework.
+
 ## Contributing
 
-TODO
+Coming soon.
 
 ## Code of Conduct
 
-TODO
+Our code of conduct can be read [here](https://www.ruby-lang.org/en/conduct/#:~:text=Participants%20must%20ensure%20that%20their,harassment%20will%20not%20be%20tolerated.).
 
 ## Security Vulnerabilities
 
-TODO
+Please review our [security policy](https://github.com/MenToD-development/website-mentod/security/policy) on how to report security vulnerabilities.
 
 ## License
 
