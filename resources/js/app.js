@@ -1,9 +1,13 @@
 import { createApp } from "vue";
 
-createApp({
-    data() {
-        return {
-        };
-    },
-}).mount('#app');
+/**
+ *  Store with modules
+ */
+import store from "./stores/store";
+
+const application = createApp({});
+
+application.use(store);
+
+application.mount('#app');
 
