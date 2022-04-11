@@ -2,6 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/MenToD-development/website-mentod/releases"><img src="https://img.shields.io/github/v/release/MenToD-Development/website-mentod" alt="Version" /></a>
+<img src="https://img.shields.io/github/workflow/status/MenToD-development/website-mentod/Laravel/main" alt="CI status" />
 <a href="https://https://github.com/MenToD-development/website-mentod/issues"><img src="https://img.shields.io/github/issues-raw/MenToD-Development/website-mentod" alt="Issues" /></a>
 <img src="https://img.shields.io/github/repo-size/MenToD-Development/website-mentod" alt="Repo size" />
 </p>
