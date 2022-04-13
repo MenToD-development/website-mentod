@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import {mapState} from "vuex";
 
 export default {
     computed: {
@@ -28,6 +28,7 @@ export default {
                 'w-screen': true,
                 'h-screen': true,
                 'bg-secondary': true,
+                'lg:hidden': true,
             };
         }
     }
