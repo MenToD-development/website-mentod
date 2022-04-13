@@ -10,11 +10,14 @@ class Button extends Component
     /**
      * Create a new component instance.
      *
-     * @return void
+     * @param string|null $icon           Icon blade file name.
+     * @param bool|null   $textShowMobile Show test on mobile?
      */
-    public function __construct(
-        public ?string $icon = null
-    ) { }
+    public function __construct (
+        public ?string $icon = null,
+        public ?bool   $textShowMobile = false,
+        public ?string $color = 'white',
+    ) {}
 
     /**
      * Get the view / contents that represent the component.

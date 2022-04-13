@@ -111,6 +111,14 @@
                 </div>
             </div>
             <x-elements.bullet-grid :items="4" :rows="3"/>
+            <div class="absolute bottom-0 pb-8 pl-8">
+                <a href="mailto:info@mentod.nl" rel="nofollow">
+                    <x-elements.button icon="assets.icons.mail" color="transparent"
+                                       :text-show-mobile="true">
+                        info@mentod.nl
+                    </x-elements.button>
+                </a>
+            </div>
         </mobile-menu>
 
         <main class="grow">
