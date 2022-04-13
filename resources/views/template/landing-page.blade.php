@@ -110,56 +110,7 @@
                     </a>
                 </div>
             </div>
-            <div class="w-2/3 float-right grid grid-cols-4 pr-8">
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-                <div class="relative w-[54px] h-[54px]">
-                    <figure
-                        class="absolute bottom-0 right-0 block rounded-full bg-primary w-1 h-1"></figure>
-                </div>
-            </div>
+            <x-elements.bullet-grid :items="4" :rows="3"/>
         </mobile-menu>
 
         <main class="grow">
