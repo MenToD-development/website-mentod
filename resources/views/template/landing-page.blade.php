@@ -11,7 +11,9 @@
     <meta name="keywords" content="{{ $keywords }}">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <style>
@@ -24,9 +26,99 @@
 @endsection
 
 @section('body')
-    <div id="app" class="antialiased">
+    <div id="app" class="antialiased flex-col min-h-screen min-w-screen bg-white dark:bg-slate-900">
+        <div class="fixed z-20 top-0 left-0 w-screen bg-white dark:bg-slate-900">
 
+            <div class="container box-border px-4 sm:mx-auto flex flex-row flex-nowrap
+                        justify-between items-center py-4 lg:py-8">
 
+                {{--Logo--}}
+                <div class="w-1/3 lg:w-1/5 2xl:w-1/6">
+                    <a class="flex items-center inline-block" href="{{ route('home') }}" rel="nofollow">
+                        @include('assets.icons.logo')
+                    </a>
+                </div>
+
+                {{--Menu--}}
+                <div class="hidden lg:inline-block">
+                    <div class="flex items-center justify-start">
+                        <a class="mr-2" href="{{ route('home') . '#diensten' }}" title="Diensten van MenToD" target="_self">
+                            <x-elements.button>
+                                Diensten
+                            </x-elements.button>
+                        </a>
+                        <a class="mr-2" href="{{ route('home') . '#over-mij' }}" title="Over MenToD" target="_self">
+                            <x-elements.button>
+                                Over mij
+                            </x-elements.button>
+                        </a>
+                        <a class="mr-2" href="{{ route('home') . '#expertises' }}" title="Expertises van MenToD" target="_self">
+                            <x-elements.button>
+                                Expertises
+                            </x-elements.button>
+                        </a>
+                        <a href="{{ route('home') . '#contact' }}" title="Neem contact op met MenToD" target="_self">
+                            <x-elements.button>
+                                Contact
+                            </x-elements.button>
+                        </a>
+                    </div>
+                </div>
+
+                {{--Contact--}}
+                <div class="inline-block flex align-center justify-end">
+                    <a href="mailto:info@mentod.nl" rel="nofollow">
+                        <x-elements.button icon="assets.icons.mail">
+                            info@mentod.nl
+                        </x-elements.button>
+                    </a>
+                    <div class="inline-block ml-2 lg:hidden">
+                        <mobile-menu-switch></mobile-menu-switch>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <mobile-menu>
+            <div class="relative top-0 container box-border sm:mx-auto pt-28 px-8">
+                <div class="flex flex-col">
+                    <a class="mb-4" href="{{ route('home') . '#diensten' }}"
+                       title="Diensten van MenToD" target="_self" @click="toggle()">
+                        <span class="font-mono font-bold text-2xl text-primary">
+                            Diensten
+                        </span>
+                    </a>
+                    <a class="mb-4" href="{{ route('home') . '#over-mij' }}"
+                       title="Over MenToD" target="_self" @click="toggle()">
+                        <span class="font-mono font-bold text-2xl text-primary">
+                            Over mij
+                        </span>
+                    </a>
+                    <a class="mb-4" href="{{ route('home') . '#expertises' }}"
+                       title="Expertises van MenToD" target="_self" @click="toggle()">
+                        <span class="font-mono font-bold text-2xl text-primary">
+                            Expertises
+                        </span>
+                    </a>
+                    <a href="{{ route('home') . '#contact' }}"
+                       title="Neem contact op met MenToD" target="_self" @click="toggle()">
+                        <span class="font-mono font-bold text-2xl text-primary">
+                            Contact
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </mobile-menu>
+
+        <main class="grow">
+            @yield('content')
+        </main>
+
+        <footer>
+
+        </footer>
 
     </div>
 
@@ -34,4 +126,3 @@
 
     <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 @endsection
-

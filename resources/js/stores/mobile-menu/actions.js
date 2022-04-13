@@ -11,9 +11,11 @@ export default {
 
             commit(OPEN_MUTATION);
 
-        }
+        } else {
 
-        commit(CLOSE_MUTATION);
+            commit(CLOSE_MUTATION);
+
+        }
     },
 
     [OPEN_ACTION]({ commit }) {
