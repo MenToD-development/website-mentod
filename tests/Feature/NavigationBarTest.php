@@ -1,12 +1,5 @@
 <?php
 
-it('has a home logo')
-    ->get('/')
-    ->assertSee(
-        'class="logo"',
-        false
-    );
-
 it('contains a menu item called "Diensten"')
     ->get('/')
     ->assertSeeText('Diensten');
